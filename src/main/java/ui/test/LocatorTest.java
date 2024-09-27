@@ -3,14 +3,11 @@ package ui.test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.locators.RelativeLocator;
 
-
-public class LoginTest {
+public class LocatorTest {
     public static String browser="chrome";
     //driver = global
     public static WebDriver driver;
@@ -31,12 +28,14 @@ public class LoginTest {
 
 
         driver.get("https://www.saucedemo.com");
-        WebElement password = driver.findElement(By.id("password"));
-        By userNameLocator = RelativeLocator.with(By.tagName("input")) // Find an <input> element
-                .above(By.id("password")); // that is located above an element with ID "password"
-
-        WebElement userNameElement = driver.findElement(userNameLocator); // Find the element using the locator
-        userNameElement.sendKeys("your_username"); // Send the keys to the element
+        //identified by id name of xpath , we have a method ,where we insert the username standard_user
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        //same thing also for the password, as the user name
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        //third step is to identify the id button , but with the copy of xpath
+        driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
+        //the last step is to close the browser
+        driver.close();
 
 
 

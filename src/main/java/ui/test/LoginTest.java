@@ -38,6 +38,8 @@ public class LoginTest {
         WebElement userNameElement = driver.findElement(userNameLocator); // Find the element using the locator
         userNameElement.sendKeys("your_username"); // Send the keys to the element
 
+        WebElement loginButton = driver.findElement(By.id("login-button"));
+        loginButton.click();
 
 
 

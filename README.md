@@ -31,3 +31,8 @@ Selenium project
 </div>
 <p>XPATH : <br>
 //*[@id="user-name"]</p>
+
+<p>And will be used in this method </p>
+<div>
+  <img src="https://github.com/user-attachments/assets/8ea37a9a-d26b-47dd-bba5-0a41915f450d" width="800">
+</div>

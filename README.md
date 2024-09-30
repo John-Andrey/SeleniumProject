@@ -38,16 +38,8 @@ Selenium project
 </div>
 
 <a href="https://www.selenium.dev/documentation/webdriver/elements/locators/">Locator documentation</a>
-<h4>XPath</h4>
 
-<div>
-  <img src="https://github.com/user-attachments/assets/265794de-a0ed-4b56-b84b-6c13002ab90a" width="800">
-</div>
-
-<div>
-  <img src="https://github.com/user-attachments/assets/70630d74-c57f-4a3b-9f91-386b7cdf576f" width="800">
-</div>
-
+<p>Selenium WebDriver  - How to Handle Dropdown in Selenium-Part 1</p>
 <div>
   <img src="" width="800">
 </div>

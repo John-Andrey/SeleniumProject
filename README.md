@@ -38,3 +38,8 @@ Selenium project
 </div>
 
 <a href="https://www.selenium.dev/documentation/webdriver/elements/locators/">Locator documentation</a>
+<h4>XPath</h4>
+
+<div>
+  <img src="https://github.com/user-attachments/assets/265794de-a0ed-4b56-b84b-6c13002ab90a" width="800">
+</div>

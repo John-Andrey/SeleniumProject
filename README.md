@@ -41,8 +41,9 @@ Selenium project
 
 <p>Selenium WebDriver  - How to Handle Dropdown in Selenium-Part 1</p>
 <div>
-  <img src="" width="800">
+  <img src="https://github.com/user-attachments/assets/fe926338-dbb2-423c-b0cb-5fd1e5fc34c5" width="800">
 </div>
+
 <div>
   <img src="" width="800">
 </div>

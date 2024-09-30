@@ -43,3 +43,18 @@ Selenium project
 <div>
   <img src="https://github.com/user-attachments/assets/265794de-a0ed-4b56-b84b-6c13002ab90a" width="800">
 </div>
+
+<div>
+  <img src="https://github.com/user-attachments/assets/70630d74-c57f-4a3b-9f91-386b7cdf576f" width="800">
+</div>
+
+<div>
+  <img src="" width="800">
+</div>
+<div>
+  <img src="" width="800">
+</div>
+<div>
+  <img src="" width="800">
+</div>
+

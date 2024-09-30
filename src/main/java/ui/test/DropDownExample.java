@@ -23,6 +23,8 @@ public class DropDownExample {
         Thread.sleep(2000);
         select.selectByIndex(5);
         Thread.sleep(2000);
+
+        //for multi selection use multi-select
         driver.close();
     }
 }
